@@ -12,7 +12,7 @@
     </style>
     <script>
       function ChatController($scope) {
-        var socket = socket.io.connect();
+        var socket = io.connect();
 
         $scope.messages = [];
         $scope.roster = [];
